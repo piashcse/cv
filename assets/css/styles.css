@@ -299,3 +299,67 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+/* LinkedIn-style career progression */
+.linkedin-style-role {
+  margin-top: 15px;
+  margin-left: -10px;
+  padding-left: 10px;
+}
+
+.role-item {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.role-item:last-child {
+  margin-bottom: 0;
+}
+
+.role-item::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  width: 2px;
+  height: 100%;
+  background: #e0e0e0;
+}
+
+.role-item:last-child::after {
+  display: none;
+}
+
+.role-item::before {
+  content: '';
+  position: absolute;
+  left: 1px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #42A8C0;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.role-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+.role-time {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.role-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
