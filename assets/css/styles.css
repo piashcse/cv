@@ -345,9 +345,9 @@ p {
 }
 
 .role-title {
-  font-size: 16px;
-  font-weight: 600;
-  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  color: #97AAC3;
   margin-bottom: 3px;
 }
 
@@ -362,4 +362,9 @@ p {
   font-size: 14px;
   line-height: 1.6;
   margin-top: 10px;
+}
+
+.role-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
